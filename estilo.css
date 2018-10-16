@@ -1,0 +1,52 @@
+body {
+	font-family: 'Oswald', sans-serif;
+}
+
+img:hover {
+	width: 101%;
+	height: 86%;
+}
+
+.titulo-pergunta {
+	background: #e82d20;
+	color:#ffffff;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 5px;
+}
+
+.opcoes {
+	display:flex;
+	height: 250px;
+	width: 100%; 
+}
+
+.opcao {
+	width: 43%;
+	margin: 50px;
+}
+
+.opcao img{
+	height: 180px;
+}
+
+.cato-img{
+	width: 100%;
+	height: 85%;
+}
+
+.button{
+	background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	margin: 0 44%;
+}
+
+.button:hover {
+	background-color: #e82d20;
+}
